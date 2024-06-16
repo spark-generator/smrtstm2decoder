@@ -11,7 +11,7 @@ namespace smrtstm2decoder
             // Check if the user has provided the correct number of arguments
             if (args.Length < 2)
             {
-                Console.WriteLine("Usage: SSDecode <input.smrtstm2> <output.xml>");
+                Console.WriteLine("Usage: smrtstm2decoder <input.smrtstm2> <output.xml>");
                 return;
             }
 
